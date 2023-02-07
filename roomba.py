@@ -16,6 +16,8 @@ canvas.create_line((0, 150), (500, 150), fill='orange', width=5)
 canvas.create_line((131, 410), (131, 630), fill='orange', width=5)
 canvas.create_line((221, 410), (221, 630), fill='orange', width=5)
 
+
+
 canvas.create_text(250, 50, text="Zona 1", font=("Arial", 15), fill='blue')
 canvas.create_text(70, 300, text="Zona 2", font=("Arial", 15), fill='blue')
 canvas.create_text(350, 500, text="Zona 3", font=("Arial", 15), fill='blue')
