@@ -4,7 +4,7 @@ Somos Jorge Barroso, Juan Navarro y María Rámon.
 
 #   CÓDIGO:
 
-´´´
+```
 from tkinter import *
 
 ventana = Tk()
@@ -73,7 +73,7 @@ def roomba():
     canvas.create_rectangle(posicionx1, posiciony1,posicionx2,posiciony2, fill="brown", outline="orange")
     # en el rectangulo blanco pon objeto
     canvas.create_text(posicionx1 + largobjeto/2, posiciony1 + alturaobjeto/2, text="Objeto")
-   # haz una linea horizontal
+    # haz una linea horizontal
     canvas.create_line(0, posiciony1, largohabitacion, posiciony1, fill="orange")
     # encima de la linea horizontal pon la altura del objeto
     canvas.create_text(largohabitacion/2, posiciony1/2, text="Zona 1",fill="blue")
@@ -106,8 +106,7 @@ botonenviar.grid(row=6, column=0, sticky=W)
 
 
 ventana.mainloop()
-
-´´´
+```
 
 # SOLUCIÓN:
 1. Captura en el momento que ejecutamos el código:
